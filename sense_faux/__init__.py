@@ -1,5 +1,7 @@
 # vim: set et sw=4 sts=4 fileencoding=utf-8:
 #
+# Sense Faux -- a No-GUI Sense HAT emulator  by K Roche
+#    based on the 
 # Raspberry Pi Sense HAT Emulator library for the Raspberry Pi
 # Copyright (c) 2016 Raspberry Pi Foundation <info@raspberrypi.org>
 #
@@ -16,7 +18,7 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>
 
-"The Raspberry Pi Sense HAT Emulator library"
+"The Raspberry Pi Sense HAT Emulator library -- Sense FAUX version "
 
 from __future__ import (
     unicode_literals,
