@@ -8,3 +8,4 @@ A non-GUI version of the sense_emu SenseHat emulator library
 3. download this repo and copy the entire sense_faux folder to the above site-packages folder.
 4. You now should be able to import the library in a python session with import sense_faux just like sense_emu
 
+The **fauxhat** directory is an artifact (you can tell because it refers to python 3.6) of creating a container that could use this library.
