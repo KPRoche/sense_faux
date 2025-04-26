@@ -584,7 +584,7 @@ class SenseHat(object):
 
     @gamma.setter
     def gamma(self, buffer):
-        if len(buffer) is not 32:
+        if len(buffer) != 32:
             raise ValueError('Gamma array must be of length 32')
 
         if not all(b <= 31 for b in buffer):
